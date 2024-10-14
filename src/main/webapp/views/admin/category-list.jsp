@@ -4,7 +4,6 @@
 <a href="<c:url value="/admin/category/add"/>">Add Category</a>
 <br>
 
-
 <hr>
 <table border="I" width="100%">
 	<tr>

@@ -106,7 +106,7 @@ public class CategoryController extends HttpServlet {
 
 			String fname = "";
 
-			String uploadPath = Constant.DIR; // upload vào thư mục bất kỳ
+			String uploadPath = Constant.UPLOAD_DIRECTORY; // upload vào thư mục bất kỳ
 
 			File uploadDir = new File(uploadPath);
 
@@ -182,7 +182,7 @@ public class CategoryController extends HttpServlet {
 
 			String fname = "";
 
-			String uploadPath = Constant.DIR; // upload vào thư mục bất kỳ
+			String uploadPath = Constant.UPLOAD_DIRECTORY; // upload vào thư mục bất kỳ
 
 			File uploadDir = new File(uploadPath);
 

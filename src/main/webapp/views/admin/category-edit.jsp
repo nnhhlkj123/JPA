@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ include file="/commons/taglib.jsp"%>
 <form action="<c:url value="/admin/category/update"/>" method="post"
 	enctype="multipart/form-data">
 
