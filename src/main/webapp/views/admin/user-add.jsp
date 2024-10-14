@@ -8,8 +8,8 @@
 		for="userName">User Name:</label><br> <input type="text"
 		id="userName" name="userName" required><br> <label
 		for="fullName">Full Name:</label><br> <input type="text"
-		id="fullName" name="fullName"><br> <label for="password">Password:</label><br>
-	<input type="password" id="password" name="password" required><br>
+		id="fullName" name="fullName"><br> <label for="passWord">Password:</label><br>
+	<input type="passWord" id="passWord" name="passWord" required><br>
 
 	<label for="phone">Phone:</label><br> <input type="text"
 		id="phone" name="phone"><br> <label for="roleid">Role:</label><br>

@@ -32,7 +32,7 @@ public class UserController extends HttpServlet {
 
 		if (url.contains("/admin/users")) {
 			List<User> list = userService.findAll();
-			req.setAttribute("listuser", list);
+			req.setAttribute("listUser", list);
 			req.getRequestDispatcher("/views/admin/user-list.jsp").forward(req, resp);
 
 		} else if (url.contains("/admin/user/add")) {
@@ -68,7 +68,7 @@ public class UserController extends HttpServlet {
 			String phone = req.getParameter("phone");
 			Date createdDate = new Date();
 			String avatar = req.getParameter("avatar");
-
+			System.out.println(passWord);
 			User user = new User();
 			user.setEmail(email);
 			user.setUserName(userName);
@@ -85,7 +85,7 @@ public class UserController extends HttpServlet {
 				uploadDir.mkdir();
 
 			try {
-				Part part = req.getPart("avatarFile");
+				Part part = req.getPart("avatar");
 				if (part.getSize() > 0) {
 					String filename = Paths.get(part.getSubmittedFileName()).getFileName().toString();
 					int index = filename.lastIndexOf(".");

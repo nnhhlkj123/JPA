@@ -10,18 +10,13 @@
 		for="lname">Link images:</label><br> <input type="text"
 		id="images" name="images"><br> <label for="lname">Upload
 		images:</label><br> <input type="file" id="images1" name="images1"><br>
-
-
-
-
-
 	<label for="html">Status</label><br> <input type="radio" id="ston"
 		name="status" value="1"> <label for="css">Hoạt động</label><br>
 
 
 	<input type="radio" id="stoff" name="status" value="0"> <label
-		for="javascript">Khóa</label> <br>
-	<br> <input type="submit" value="Insert">
+		for="javascript">Khóa</label> <br> <br> <input type="submit"
+		value="Insert">
 
 
 </form>
